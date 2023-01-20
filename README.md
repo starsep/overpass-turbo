@@ -37,3 +37,7 @@ Development is done in the _master_ branch, stable releases are marked with git 
 1. `npm install`
 2. `npm start` for a Development server listening at http://localhost:8080
 3. `npm run build` for a minified build in `./build`
+
+## Docker
+1. `docker build -t overpass-turbo .`
+2. `docker run -p 4173:4173 --rm -d --name=overpass-turbo overpass-turbo`
